@@ -13,5 +13,7 @@ device_custom.sh
 Luci 界面设备自定义信息缓存脚本
 device_online.sh
 设备在线状态判断脚本，需 arping 命令支持
+k3screenctrl.init
+# 修改后的启动脚本
 ```
-配合 luci 界面使用更佳，如果单独使用，请注意删除关于 luci 的部分命令。
+配合 Luci 界面使用更佳，如果单独使用，请注意删除关于 uci 的部分命令。
