@@ -1,4 +1,5 @@
 # k3screenctrl_sh
+执行install.sh来进行安装
 此项目是 [k3screenctrl](https://github.com/updateing/k3screenctrl) 输出脚本的优化改良版  
 推荐搭配 [luci-app-k3screenctrl](https://github.com/Hill-98/luci-app-k3screenctrl) 使用
 
