@@ -2,7 +2,7 @@
 # Copyright (C) 2017 XiaoShan https://www.mivm.cn
 
 temp_dir=/tmp/k3screenctrl
-dhcp_leases=$uci get dhcp.@dnsmasq[0].leasefile
+dhcp_leases=$(uci get dhcp.@dnsmasq[0].leasefile)
 online_list_ip=$(cat $dhcp_leases | awk '{print $3}')
 online_list_mac=$(cat $dhcp_leases | awk '{print $2}')
 online_list_host=$(cat $dhcp_leases | awk '{print $4}')
