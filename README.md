@@ -1,9 +1,12 @@
 # k3screenctrl_sh
+fork过来做备份，顺便增加了安装脚本
+需要bash支持，自己在包管理添加，或者在编译时选上
 安装命令
 ``` 
 cd /lib/k3screenctrl && wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/install.sh && chmod 777 install.sh
 ``` 
-此项目是 [k3screenctrl](https://github.com/updateing/k3screenctrl) 输出脚本的优化改良版  
+此项目原作者是 [Hill-98](https://github.com/Hill-98/k3screenctrl_sh)的[k3screenctrl_sh](https://github.com/Hill-98/k3screenctrl_sh)
+[k3screenctrl](https://github.com/updateing/k3screenctrl) 输出脚本的优化改良版  
 推荐搭配 [luci-app-k3screenctrl](https://github.com/Hill-98/luci-app-k3screenctrl) 使用
 
 ```

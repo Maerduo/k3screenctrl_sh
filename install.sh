@@ -18,3 +18,7 @@ mv k3screenctrl.init /etc/init.d/k3screenctrl
 mkdir oui
 cd oui
 wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/oui/oui.txt
+
+cd /tmp
+wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/luci-app-k3screenctrl_1.0.0-1_all.ipk
+opkg install luci-app-k3screenctrl_1.0.0-1_all.ipk
