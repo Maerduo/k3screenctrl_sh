@@ -6,8 +6,6 @@ wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/wifi.sh
 wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/wan.sh
 wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/host.sh
 wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/port.sh
-wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/device_custom.sh
-wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/device_online.sh
 chmod 777 *.sh
 
 wget https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/k3screenctrl.init
