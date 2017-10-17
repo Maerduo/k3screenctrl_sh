@@ -3,7 +3,7 @@ fork过来做备份，顺便增加了安装脚本
 需要bash支持，自己在包管理添加，或者在编译时选上
 安装命令
 ```
-cd /tmp && wget -no-check-certificate https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/install.sh && chmod 777 install.sh && ./install.sh
+cd /tmp && wget --no-check-certificate https://raw.githubusercontent.com/kill33/k3screenctrl_sh/master/install.sh && chmod 777 install.sh && ./install.sh
 ``` 
 此项目原作者是 [Hill-98](https://github.com/Hill-98/k3screenctrl_sh)的[k3screenctrl_sh](https://github.com/Hill-98/k3screenctrl_sh) 
 
