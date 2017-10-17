@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /lib/k3screenctrl
 mkdir sh_back
 mv basic.sh wifi.sh wan.sh host.sh port.sh ./sh_back
